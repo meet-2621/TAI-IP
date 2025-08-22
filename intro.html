@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manmeet Kaur - Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+
+  <script src="https://kit.fontawesome.com/4fce9c06b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Manmeet Kaur</h1>
+    <p><span class="typing"></span></p>
+    <button id="modeToggle" aria-label="Toggle color mode"><i class="fas fa-moon"></i></button>
+  </header>
+  <nav id="navbar">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about" class="fade-in">
+    <div class="about">
+      <img src="image.jpg" alt="Manmeet Kaur"/>
+      <p>
+        Hi! I'm <b>Manmeet Kaur</b>, a passionate Computer Applications graduate eager to learn and build
+        impactful digital solutions. I enjoy working on web technologies, AI-based projects, and solving coding challenges. 
+        My goal is to grow into a professional software developer and contribute to meaningful projects.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="fade-in">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>💻 HTML, CSS, JavaScript</li>
+        <li>🛠️ PHP & MySQL</li>
+        <li>⚡ C++ & Data Structures</li>
+        <li>🤖 Python (OpenCV, AI basics)</li>
+        <li>🌐 React.js & Modern Web Development</li>
+      </ul>
+    </div>
+  </section>
+  <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <div class="projects-toolbar card">
+      <input id="projectSearch" type="search" placeholder="Search projects by name…" />
+      <span class="hint"><i class="fas fa-filter"></i> Type to filter</span>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card" data-title="github-explorer">
+        <h3><i class="fab fa-github"></i> Github-explorer</h3>
+        <p>A responsive web app to search GitHub users & repositories (GitHub API).</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/Github-explorer">
+          View on GitHub
+        </a>
+      </article>
+      <article class="project-card" data-title="temperature-converter-website">
+        <h3>🌡️ Temperature-Converter-Website</h3>
+        <p>Converts Celsius, Fahrenheit & Kelvin instantly with a clean UI.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/Temperature-Converter-Website">
+          View on GitHub
+        </a>
+      </article>
+      <article class="project-card" data-title="customer-relationship-manager">
+        <h3>👥 Customer-Relationship-Manager</h3>
+        <p>Lightweight CRM to manage customers without a backend or database.</p>
+        <div class="badges">
+          <span>JavaScript</span><span>Frontend</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/Customer-Relationship-Manager">
+          View on GitHub
+        </a>
+      </article>
+      <article class="project-card" data-title="portfolio-card-generator">
+        <h3>🪪 PORTFOLIO-CARD-GENERATOR</h3>
+        <p>Generates a personalized portfolio card (name, role, bio) with export.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/PORTFOLIO-CARD-GENERATOR">
+          View on GitHub
+        </a>
+      </article>
+      <article class="project-card" data-title="typing-speed-test">
+        <h3>⌨️ Typing-Speed-Test</h3>
+        <p>Typing speed test with WPM, accuracy and timer.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/Typing-Speed-Test">
+          View on GitHub
+        </a>
+      </article>
+      <article class="project-card" data-title="dsa-tracker">
+        <h3>📈 DSA-Tracker</h3>
+        <p>Track your DSA practice and progress with a simple dashboard.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/DSA-Tracker">
+          View on GitHub
+        </a>
+      </article>
+
+      <article class="project-card" data-title="calculator-app">
+        <h3>🧮 Calculator-App</h3>
+        <p>Modern calculator UI with minimal, glowing design.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/Calculator-App">
+          View on GitHub
+        </a>
+      </article>
+
+      <article class="project-card" data-title="password-generator-app">
+        <h3>🔐 Password-Generator-App</h3>
+        <p>Generate secure passwords with customizable options.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/Password-Generator-App">
+          View on GitHub
+        </a>
+      </article>
+
+      <article class="project-card" data-title="rock-d-paper-d-scissored">
+        <h3>✂️ Rock-d-Paper-d-Scissored</h3>
+        <p>Classic Rock–Paper–Scissors game with a sleek dark UI.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/Rock-d-Paper-d-Scissored-">
+          View on GitHub
+        </a>
+      </article>
+
+      <article class="project-card" data-title="tic-tac-toe-game">
+        <h3>⭕ Tic-Tac-Toe-Game</h3>
+        <p>Frontend Tic-Tac-Toe built with vanilla JavaScript.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/Tic-Tac-Toe-Game">
+          View on GitHub
+        </a>
+      </article>
+
+      <article class="project-card" data-title="guess-the-number-mini-web-game">
+        <h3>🎲 Guess-the-Number-Mini-Web-Game</h3>
+        <p>Guess the randomly generated number—simple & fun.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/Guess-the-Number-Mini-Web-Game">
+          View on GitHub
+        </a>
+      </article>
+
+      <article class="project-card" data-title="weathernow">
+        <h3>🌦️ WeatherNow</h3>
+        <p>Responsive weather app fetching real-time data.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/WeatherNow">
+          View on GitHub
+        </a>
+      </article>
+      <article class="project-card" data-title="resume-builder">
+        <h3>📄 Resume-Builder</h3>
+        <p>Build a professional resume dynamically right in the browser.</p>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a class="btn-link" target="_blank" href="https://github.com/meet-2621/Resume-Builder">
+          View on GitHub
+        </a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="education" class="fade-in">
+    <h2>Education</h2>
+    <div class="card">
+      <p><b>Bachelor of Computer Applications (BCA)</b></p>
+      <p>General Shivdev Singh Diwan Gurbachan Singh Khalsa College, Patiala</p>
+      <p>Graduated: 2025</p>
+    </div>
+  </section>
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Let's connect! You can reach me via:</p>
+      <div class="contact-links">
+        <a href="mailto:manmeetkaur04@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/manmeet-kaur-2A5a372ba" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/meet-2621" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Manmeet Kaur | Designed with ❤️</p>
+  </footer>
+
+  <button id="topBtn" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script>
+    const textArray = ["BCA Graduate", "Aspiring Developer", "Tech Enthusiast"];
+    let i = 0, j = 0;
+    const typing = document.querySelector(".typing");
+    function type() {
+      if (j < textArray[i].length) { typing.innerHTML += textArray[i][j++]; setTimeout(type, 120); }
+      else { setTimeout(erase, 1500); }
+    }
+    function erase() {
+      if (j > 0) { typing.innerHTML = textArray[i].substring(0, --j); setTimeout(erase, 80); }
+      else { i = (i + 1) % textArray.length; setTimeout(type, 300); }
+    }
+    type();
+    const topBtn = document.getElementById("topBtn");
+    window.addEventListener("scroll", () => {
+      topBtn.style.display = (document.documentElement.scrollTop > 200) ? "block" : "none";
+    });
+    topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("nav a");
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach(s => {
+        const top = s.offsetTop - 70;
+        if (scrollY >= top) current = s.id;
+      });
+      navLinks.forEach(a => {
+        a.classList.toggle("active", a.getAttribute("href") === "#" + current);
+      });
+    });
+    const modeToggle = document.getElementById("modeToggle");
+    modeToggle.onclick = () => {
+      document.body.classList.toggle("dark-mode");
+      modeToggle.innerHTML = document.body.classList.contains("dark-mode")
+        ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+    };
+    const search = document.getElementById("projectSearch");
+    const cards = document.querySelectorAll(".project-card");
+    search.addEventListener("input", () => {
+      const q = search.value.trim().toLowerCase();
+      cards.forEach(c => {
+        const title = (c.dataset.title || "").toLowerCase();
+        c.style.display = title.includes(q) ? "" : "none";
+      });
+    });
+  </script>
+</body>
+</html>

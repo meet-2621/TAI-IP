@@ -1,4 +1,4 @@
-# TAI-IP
+# TAI-IP-Personal-Website-Portfolio
 This repo contains all internship tasks for TAI-IP
 🌐 Personal Portfolio Website  
 
